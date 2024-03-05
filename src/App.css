@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+li:hover{
+    transform: scale(1);
+    border-bottom: 1px solid whitesmoke;
+    
+}
+
+#web{
+    font-family: cursive;
+}
+#cv{
+    font-weight:500;
+    font-family:cursive;
+}
+#cv:hover{
+    box-shadow: 1px 1px 170px whitesmoke;
+}
+.gradiant-text {
+    -webkit-background-clip: text;
+    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent;
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation: typing-text steps(50) 4s infinite, blink ease 0.3s infinite;
+    text-wrap: nowrap;
+    display: inline-block;
+    width: max-content;
+    width: 0;
+}
+
+@keyframes typing-text {
+    from {
+        width: 0%;
+    } 
+    to {
+        width: 300px;
+    }
+}
+
+@keyframes typing-text {
+    to {
+        border-color: transparent;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    
+
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff5a;
+    border-radius: 30px;
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgba(44, 146, 210, 0.796);
+    border-left: solid 1px aqua;
+    border-radius: 50px;
+}
+
+
+#fb{
+   background-color:white;
+    border-radius: 3px;
+    
+}
+#fb:hover{
+    box-shadow: 2px 2px 20px white;
+ }
+ #insta:hover{
+    box-shadow: 2px 2px 20px white;
+    border-radius: 8px;
+ }
+ #linked:hover{
+    box-shadow: 2px 2px 20px white;
+    border-radius: 8px;
+ }
+
+
