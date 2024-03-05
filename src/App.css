@@ -14,11 +14,11 @@ li:hover{
 }
 
 #web{
-    font-family: cursive;
+    /* font-family: cursive; */
 }
 #cv{
     font-weight:500;
-    font-family:cursive;
+    /* font-family:cursive; */
 }
 #cv:hover{
     box-shadow: 1px 1px 170px whitesmoke;
